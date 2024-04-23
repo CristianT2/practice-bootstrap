@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
+
 <body>
-    
+    <header>
+        <nav class="container-fluid bg-success">
+            menu
+        </nav>
+    </header>
+    <main>
+        <div class="container bg-primary">
+            <div class="w-100">
+                <div class="row">
+                    <div class="col m-0 p-1">
+                        <img class="img-fluid" src="https://picsum.photos/id/250/900/800" alt="">
+                    </div>
+                    <div class="col d-none d-md-block m-0 p-1">
+                        <img class="img-fluid" src="https://picsum.photos/id/1040/900/800" alt="">
+                    </div>
+                </div>
+                <div class="w-100">
+                    <img class="img-fluid" src="https://picsum.photos/id/1040/700/600" alt="">
+                </div>
+                <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 bg-dark text-white">
+                    <article class="col">articulo 1</article>
+                    <article class="col">articulo 2</article>
+                    <article class="col">articulo 3</article>
+                    <article class="col">articulo 4</article>
+                    <article class="col">articulo 5</article>
+                    <article class="col">articulo 6</article>
+                    <article class="col">articulo 7</article>
+                    <article class="col d-sm-none d-md-block">articulo 8</article>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid bg-secondary">
+        footer
+    </footer>
 </body>
 </html>
