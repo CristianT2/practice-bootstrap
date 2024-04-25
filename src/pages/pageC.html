@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="/node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg sticky-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-4 fw-medium" href="./page1.html" style="color: #1ED760;">
+                    Menú
+                    <i class="bi bi-rocket-takeoff-fill"></i>
+                </a>
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-md-5">
+                        <a class="nav-link active" aria-current="page" href="/src/pages/pageA.html">
+                            <div class="d-flex flex-column justify-content-center align-items-center px-3" id="menu">
+                                <i class="bi bi-spotify text-white"></i>
+                                <p class="text-white">Música</p>
+                            </div>
+                        </a>
+                        <a class="nav-link" href="/src/pages/pageB.html">
+                            <div class="d-flex flex-column justify-content-center align-items-center px-3" id="menu">
+                                <i class="bi bi-cash-coin text-white"></i>
+                                <p class="text-white">Divisas</p>
+                            </div>
+                        </a>
+                        <a class="nav-link" href="/src/pages/pageC.html">
+                            <div class="d-flex flex-column justify-content-center align-items-center px-3" id="menu">
+                                <i class="bi bi-postcard-fill text-white"></i>
+                                <p class="text-white">Horóscopo</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container my-5">
+            <section class="row mt-4 text-break">
+                <p class="fs-2 fw-bold" style="color: #1ED760;">Los Signos del Zodiaco</p>
+                <div class="col-6 col-md-4 my-3 pe-2">
+                    <a class="text-reset text-decoration-none" href="#aries" id="card">
+                        <div class="d-flex bg-dark p-2 rounded-3 text-info">
+                            <img src="../assets/aries.avif" alt="image" style="width: 5rem;">
+                            <p class="fs-3 fw-semibold m-auto">Aries</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 my-3 pe-2">
+                    <a class="text-reset text-decoration-none" href="#leo" id="card">
+                        <div class="d-flex bg-dark p-2 rounded-3 text-info">
+                            <img src="../assets/leo.jpg" alt="image" style="width: 5rem;">
+                            <p class="fs-3 fw-semibold m-auto">Leo</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 my-3 pe-2">
+                    <a class="text-reset text-decoration-none" href="#sagitario" id="card">
+                        <div class="d-flex bg-dark p-2 rounded-3 text-info">
+                            <img src="../assets/sagitario.avif" alt="image" style="width: 5rem;">
+                            <p class="fs-3 fw-semibold m-auto">Sagitario</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 my-3 pe-2">
+                    <a class="text-reset text-decoration-none" href="#tauro" id="card">
+                        <div class="d-flex bg-dark p-2 rounded-3 text-info">
+                            <img src="../assets/tauro.avif" alt="image" style="width: 5rem;">
+                            <p class="fs-3 fw-semibold m-auto">Tauro</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 my-3 pe-2">
+                    <a class="text-reset text-decoration-none" href="#virgo" id="card">
+                        <div class="d-flex bg-dark p-2 rounded-3 text-info">
+                            <img src="../assets/virgo.avif" alt="image" style="width: 5rem;">
+                            <p class="fs-3 fw-semibold m-auto">Virgo</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 my-3 pe-2">
+                    <a class="text-reset text-decoration-none" href="#capricornio" id="card">
+                        <div class="d-flex bg-dark p-2 rounded-3 text-info">
+                            <img src="../assets/capricornio.avif" alt="image" style="width: 5rem;">
+                            <p class="fs-3 text-wrap fw-semibold m-auto">Capricornio</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 my-3 pe-2">
+                    <a class="text-reset text-decoration-none" href="#geminis" id="card">
+                        <div class="d-flex bg-dark p-2 rounded-3 text-info">
+                            <img src="../assets/geminis.jpg" alt="image" style="width: 5rem;">
+                            <p class="fs-3 fw-semibold m-auto">Géminis</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 my-3 pe-2">
+                    <a class="text-reset text-decoration-none" href="#libra" id="card">
+                        <div class="d-flex bg-dark p-2 rounded-3 text-info">
+                            <img src="../assets/libra.avif" alt="image" style="width: 5rem;">
+                            <p class="fs-3 fw-semibold m-auto">Libra</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 my-3 pe-2">
+                    <a class="text-reset text-decoration-none" href="#acuario" id="card">
+                        <div class="d-flex bg-dark p-2 rounded-3 text-info">
+                            <img src="../assets/acuario.avif" alt="image" style="width: 5rem;">
+                            <p class="fs-3 fw-semibold m-auto">Acuario</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 my-3 pe-2">
+                    <a class="text-reset text-decoration-none" href="#cancer" id="card">
+                        <div class="d-flex bg-dark p-2 rounded-3 text-info">
+                            <img src="../assets/cancer.jpg" alt="image" style="width: 5rem;">
+                            <p class="fs-3 fw-semibold m-auto">Cáncer</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 my-3 pe-2">
+                    <a class="text-reset text-decoration-none" href="#escorpio" id="card">
+                        <div class="d-flex bg-dark p-2 rounded-3 text-info">
+                            <img src="../assets/scorpio.avif" alt="image" style="width: 5rem;">
+                            <p class="fs-3 fw-semibold m-auto">Escorpio</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 my-3 pe-2">
+                    <a class="text-reset text-decoration-none" href="#piscis" id="card">
+                        <div class="d-flex bg-dark p-2 rounded-3 text-info">
+                            <img src="../assets/piscis.avif" alt="image" style="width: 5rem;">
+                            <p class="fs-3 fw-semibold m-auto">Piscis</p>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section class="mt-5">
+                <p class="fs-2 fw-bold mb-4" style="color: #1ED760;">Horóscopo de cada Signo Zodiacal</p>
+                <div class="row bg-dark p-2 rounded-4 my-3">
+                    <div class="col col-12 col-lg-8 col-xl-9 flex py-3 px-4 text-white" id="aries">
+                        <h2 class="fw-bold">Aries</h2>
+                        <h6 class="opacity-50">21/3 al 20/4</h6>
+                        <p class="opacity-75 fw-light lh-1">Cuando aprenda a dejarse sorprender por lo inesperado, sabrá
+                            que le irá mucho mejor en su
+                            vida. Deje de buscar explicaciones para todas las cosas.<br />
+                            <strong>Amor:</strong> El planeta Venus favorecerá su seducción. Deberá aprovechar que su
+                            imagen estará
+                            deslumbrante para invitar a esa persona que hace tiempo le interesa.<br />
+                            <strong>Riqueza:</strong> Diagrame sus finanzas con serenidad. Usted tiene la capacidad para
+                            concretar esos
+                            proyectos complicados y disfrutar del éxito sin la ayuda de alguien.<br />
+                            <strong>Bienestar:</strong> Propóngase hacer una vida más saludable, evite los excesos en
+                            comida y bebidas.
+                            Si sale a cenar fuera de su casa, trate de controlarse con lo que come y bebe.
+                        </p>
+                    </div>
+                    <img class="col d-none d-lg-block col-lg-4 col-xl-3 m-auto rounded-pill" src="../assets/aries.avif"
+                        alt="image" style="width: 15rem;">
+                </div>
+                <div class="row bg-dark p-2 rounded-4 my-3">
+                    <div class="col col-12 col-lg-8 col-xl-9 flex py-3 px-4 text-white" id="tauro">
+                        <h2 class="fw-bold">Tauro</h2>
+                        <h6 class="opacity-50">21/4 al 21/5</h6>
+                        <p class="opacity-75 fw-light lh-1">Verá que su empatía le será de gran ayuda para salir de ese
+                            egoísmo y aislamiento social que ha estado experimentando últimamente con la gente que lo
+                            rodea.
+                            Amor: Deje de darle motivos a su pareja para que desconfíe de usted, de lo contrario,
+                            podrían surgir escenas de celos y podrían terminar peleados.
+                            Riqueza: Si tiene pensado realizar un negocio con parientes directos, evítelo, ya que pueden
+                            surgir conflictos. No pierda energías ni dinero en ese negocio.
+                            Bienestar: Haga lo posible por no ser tan soberbio. De lo contrario, podría dar una mala
+                            impresión a las personas nuevas con las que se relaciona.
+                        </p>
+                    </div>
+                    <img class="col d-none d-lg-block col-lg-4 col-xl-3 m-auto rounded-pill" src="../assets/tauro.avif"
+                        alt="image" style="width: 15rem;">
+                </div>
+                <div class="row bg-dark p-2 rounded-4 my-3">
+                    <div class="col col-12 col-lg-8 col-xl-9 flex py-3 px-4 text-white" id="geminis">
+                        <h2 class="fw-bold">Géminis</h2>
+                        <h6 class="opacity-50">22/5 al 21/6</h6>
+                        <p class="opacity-75 fw-light lh-1">Evite involucrarse en situaciones complicadas que no le
+                            incumben personalmente. Ocúpese de sus propios asuntos y trate de resolverlos usted solo.
+                            Amor: Intente buscar el equilibrio entre usted y su pareja, ya que hace tiempo la relación
+                            está en declive. Evite las oscilaciones emocionales en la relación.
+                            Riqueza: Siempre que tenga confianza, podrá encarar cualquier negocio nuevo o actividad
+                            comercial. Ponga todo de sí y logrará el éxito en el momento menos esperado.
+                            Bienestar: Se sentirá un poco angustiado en este día, ya que recordará situaciones tristes
+                            de su infancia. Llame a sus amigos o salga a distraerse un poco.
+                        </p>
+                    </div>
+                    <img class="col d-none d-lg-block col-lg-4 col-xl-3 m-auto rounded-pill" src="../assets/geminis.jpg"
+                        alt="image" style="width: 15rem;">
+                </div>
+                <div class="row bg-dark p-2 rounded-4 my-3">
+                    <div class="col col-12 col-lg-8 col-xl-9 flex py-3 px-4 text-white" id="cancer">
+                        <h2 class="fw-bold">Cáncer</h2>
+                        <h6 class="opacity-50">22/6 al 23/7</h6>
+                        <p class="opacity-75 fw-light lh-1">Propóngase hoy mismo elaborar pensamientos creativos desde
+                            el alma. De esta forma, le ayudarán a conectar con sus verdaderos intereses personales.
+                            Amor: Intente extender su simpatía y superar su mal humor. Cambiando estas actitudes, podrá
+                            encontrar el amor en el momento menos esperado y finalmente sentirse enamorado.
+                            Riqueza: Iniciará un proyecto nuevo que le beneficiará económicamente en poco tiempo.
+                            Transitará una etapa ideal ya que ocupará un lugar protagónico.
+                            Bienestar: Será un día en el que su voluntad no estará muy desarrollada. Debería estar
+                            atento, ya que podría perder una oportunidad por miedo a no arriesgarse.
+                        </p>
+                    </div>
+                    <img class="col d-none d-lg-block col-lg-4 col-xl-3 m-auto rounded-pill" src="../assets/cancer.jpg"
+                        alt="image" style="width: 15rem;">
+                </div>
+                <div class="row bg-dark p-2 rounded-4 my-3">
+                    <div class="col col-12 col-lg-8 col-xl-9 flex py-3 px-4 text-white" id="leo">
+                        <h2 class="fw-bold">Leo</h2>
+                        <h6 class="opacity-50">24/7 al 23/8</h6>
+                        <p class="opacity-75 fw-light lh-1">Prepárese, ya que será una jornada donde su alegría y
+                            optimismo se apoderarán de usted. Se sentirá con ganas de disfrutar de la vida y no medirá
+                            las consecuencias.
+                            Amor: Sepa que todos los medios que utilice serán válidos para conquistar a la persona que
+                            hace tiempo le quita el sueño. Muéstrese tal cual es en la vida.
+                            Riqueza: Empezará un ciclo oportuno para tramitar un préstamo para esa inversión que desea
+                            hacer en su casa. Busque el lugar más adecuado a sus necesidades financieras.
+                            Bienestar: Será una jornada para hacerle frente a esas emociones negativas que abruman su
+                            psiquis. Deje de acumular los malos pensamientos, ya que no le sirven de nada.
+                        </p>
+                    </div>
+                    <img class="col d-none d-lg-block col-lg-4 col-xl-3 m-auto rounded-pill" src="../assets/leo.jpg"
+                        alt="image" style="width: 15rem;">
+                </div>
+                <div class="row bg-dark p-2 rounded-4 my-3">
+                    <div class="col col-12 col-lg-8 col-xl-9 flex py-3 px-4 text-white" id="virgo">
+                        <h2 class="fw-bold">Virgo</h2>
+                        <h6 class="opacity-50">24/8 al 23/9</h6>
+                        <p class="opacity-75 fw-light lh-1">En este día, por más que lo intente, algunas preocupaciones
+                            lo alejarán de sus objetivos. Trate de tranquilizarse y pensar bien cuando decida qué hacer.
+                            Amor: Debe romper con esa rivalidad que existe entre usted y su hermano. Piense que ya son
+                            personas maduras y no pueden seguir teniendo ese comportamiento.
+                            Riqueza: Deje de comportarse de manera egoísta en el trabajo, sino tendrá problemas con sus
+                            compañeros. Evite usar el poder que tiene de manera errónea.
+                            Bienestar: Será un día donde le costará demasiado finalizar todo aquello que empiece. Evite
+                            desesperarse por esas situaciones menores y siga por el camino que ha elegido.
+                        </p>
+                    </div>
+                    <img class="col d-none d-lg-block col-lg-4 col-xl-3 m-auto rounded-pill" src="../assets/virgo.avif"
+                        alt="image" style="width: 15rem;">
+                </div>
+                <div class="row bg-dark p-2 rounded-4 my-3">
+                    <div class="col col-12 col-lg-8 col-xl-9 flex py-3 px-4 text-white" id="libra">
+                        <h2 class="fw-bold">Libra</h2>
+                        <h6 class="opacity-50">24/9 al 23/10</h6>
+                        <p class="opacity-75 fw-light lh-1">Haga lo posible y abra la mente hacia nuevos horizontes que
+                            usted antes no conocía. Si lo intenta, podrá obtener como resultado experiencias muy
+                            positivas.
+                            Amor: Será una etapa maravillosa en el amor, motivo por el que no querrá separarse ni un
+                            solo minuto de su pareja. Coméntele su idea de comprometerse e invítela a vivir en su casa.
+                            Riqueza: No permita que los asuntos amorosos lo distancien del cuidado de su economía. Trate
+                            de manejar bien los movimientos financieros, sino terminará perdiendo dinero.
+                            Bienestar: Planee un viaje breve y recorra los lugares que siempre han despertado su
+                            interés. Busque información sobre el destino y saque ya mismo los pasajes.
+                        </p>
+                    </div>
+                    <img class="col d-none d-lg-block col-lg-4 col-xl-3 m-auto rounded-pill" src="../assets/libra.avif"
+                        alt="image" style="width: 15rem;">
+                </div>
+                <div class="row bg-dark p-2 rounded-4 my-3">
+                    <div class="col col-12 col-lg-8 col-xl-9 flex py-3 px-4 text-white" id="escorpio">
+                        <h2 class="fw-bold">Escorpio</h2>
+                        <h6 class="opacity-50">24/10 al 22/11</h6>
+                        <p class="opacity-75 fw-light lh-1">Comience a ser sincero consigo mismo y así emprenderá un
+                            nuevo camino en su vida. Deje a un lado su ego, ya que su orgullo podría jugarle una mala
+                            pasada.
+                            Amor: La presencia de la Luna en su signo avivará la llama del amor en su vínculo amoroso y,
+                            gracias a su sensibilidad, podrá adivinar lo que le sucede a su enamorado.
+                            Riqueza: Si ha decidido cambiar de trabajo, aproveche, ya que podrá emprender la tarea sin
+                            problemas. Asista a todas las entrevistas que tenga y le irá genial.
+                            Bienestar: Es un excelente momento para emprender una obra benéfica y poder ayudar a las
+                            personas necesitadas. Intente acercarse a ellas sin esperar nada a cambio.
+                        </p>
+                    </div>
+                    <img class="col d-none d-lg-block col-lg-4 col-xl-3 m-auto rounded-pill"
+                        src="../assets/scorpio.avif" alt="image" style="width: 15rem;">
+                </div>
+                <div class="row bg-dark p-2 rounded-4 my-3">
+                    <div class="col col-12 col-lg-8 col-xl-9 flex py-3 px-4 text-white" id="sagitario">
+                        <h2 class="fw-bold">Sagitario</h2>
+                        <h6 class="opacity-50">23/11 al 22/12</h6>
+                        <p class="opacity-75 fw-light lh-1">Prepárese, ya que hoy podría llegar a convertirse en su
+                            propio enemigo. Intente ver los aspectos positivos de su vida y comience a construir su
+                            futuro.
+                            Amor: Tenga paciencia y dispóngase a escuchar los reclamos de su pareja, ya que son
+                            razonables. No sea tan cruel y trate de ser más cariñoso con su enamorado.
+                            Riqueza: Debe prestar mucha atención a los gastos un tanto excesivos que tuvo en la semana.
+                            Sepa que si no los controla como se debe, no llegará a fin de mes.
+                            Bienestar: Si siente que su energía vital disminuye, observe con qué personas se rodea
+                            habitualmente. Muchas veces, la gente negativa puede restarle energía.
+                        </p>
+                    </div>
+                    <img class="col d-none d-lg-block col-lg-4 col-xl-3 m-auto rounded-pill"
+                        src="../assets/sagitario.avif" alt="image" style="width: 15rem;">
+                </div>
+                <div class="row bg-dark p-2 rounded-4 my-3">
+                    <div class="col col-12 col-lg-8 col-xl-9 flex py-3 px-4 text-white" id="capricornio">
+                        <h2 class="fw-bold">Capricornio</h2>
+                        <h6 class="opacity-50">23/12 al 20/1</h6>
+                        <p class="opacity-75 fw-light lh-1">Seguramente, en esta jornada se le presentará una situación
+                            donde deberá buscar una solución inmediata a ese conflicto. Trate de no involucrarse.
+                            Amor: Mantenga un diálogo activo con su pareja, dígale que la necesita mucho y que desea
+                            compartir sus emociones. No sea arrogante en el amor.
+                            Riqueza: Deberá priorizar el plano económico en este día, ya que podría surgir algún
+                            inconveniente monetario que no se esperaba. Aléjese de las distracciones.
+                            Bienestar: Prepárese, ya que ese estado de confusión mental continuará en el día de hoy.
+                            Intente no asustarse y desesperarse, ya que todo pasará rápidamente.
+                        </p>
+                    </div>
+                    <img class="col d-none d-lg-block col-lg-4 col-xl-3 m-auto rounded-pill"
+                        src="../assets/capricornio.avif" alt="image" style="width: 15rem;">
+                </div>
+                <div class="row bg-dark p-2 rounded-4 my-3">
+                    <div class="col col-12 col-lg-8 col-xl-9 flex py-3 px-4 text-white" id="acuario">
+                        <h2 class="fw-bold">Acuario</h2>
+                        <h6 class="opacity-50">21/1 al 19/2</h6>
+                        <p class="opacity-75 fw-light lh-1">Cuando entienda que si abandona su ambición desmedida, en
+                            poco tiempo podrá empezar a tener mayor confianza en usted mismo, ya que saldrá todo como
+                            esperaba.
+                            Amor: No se deje tentar por la atracción de un viejo amor, ya que podría correr el riesgo de
+                            repetir la historia y volverá a sufrir su corazón. Piense bien.
+                            Riqueza: Será una jornada para dejar al margen sus contradicciones y utilizar una buena
+                            estrategia laboral. Contará con muy buenas energías y esto repercutirá en su suerte.
+                            Bienestar: Por más que las cosas no salgan como esperaba, no piense que la mala suerte lo
+                            acompaña. Disfrute de un día tranquilo dentro o fuera de su hogar.
+                        </p>
+                    </div>
+                    <img class="col d-none d-lg-block col-lg-4 col-xl-3 m-auto rounded-pill"
+                        src="../assets/acuario.avif" alt="image" style="width: 15rem;">
+                </div>
+                <div class="row bg-dark p-2 rounded-4 my-3">
+                    <div class="col col-12 col-lg-8 col-xl-9 flex py-3 px-4 text-white" id="piscis">
+                        <h2 class="fw-bold">Piscis</h2>
+                        <h6 class="opacity-50">20/2 al 20/3</h6>
+                        <p class="opacity-75 fw-light lh-1">Podrían surgir pequeñas dificultades en la rutina diaria.
+                            Preste atención a ciertas cosas en las que nunca se fija y así evitará contratiempos
+                            posteriores.
+                            Amor: Serán días donde los astros incrementarán su energía amorosa con resultados positivos.
+                            Si se encuentra soltero, encontrará a la verdadera persona.
+                            Riqueza: Deje de desvalorizarse; solo deberá organizar mejor los pensamientos y tomar la
+                            decisión adecuada. Muestre la capacidad de mando en ese negocio.
+                            Bienestar: Sepa que las ideas obsesivas dañarán su interior. Trate de relajarse y aclarar
+                            las dudas. Busque algún pasatiempo que lo distraiga de esos pensamientos.
+                        </p>
+                    </div>
+                    <img class="col d-none d-lg-block col-lg-4 col-xl-3 m-auto rounded-pill" src="../assets/piscis.avif"
+                        alt="image" style="width: 15rem;">
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="container-fluid bg-dark py-3" style="height: 9rem;">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <div>
+                <i class="bi bi-rocket-takeoff-fill text-white"></i>
+            </div>
+            <span class="text-white mx-1">Cristian Torrejón</span>
+            <div class="flex text-white mx-2">
+                <i class="bi bi-facebook" style="font-size: 1.6rem;"></i>
+                <i class="bi bi-instagram" style="font-size: 1.6rem;"></i>
+                <i class="bi bi-twitter-x" style="font-size: 1.6rem;"></i>
+                <i class="bi bi-linkedin" style="font-size: 1.6rem;"></i>
+                <i class="bi bi-github" style="font-size: 1.6rem;"></i>
+            </div>
+            <span class="text-white mt-1">2024 Todos los derechos reservados</span>
+        </div>
+    </footer>
+
+
+    <!-- jQuery -->
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- Popper.js -->
+    <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <!-- Bootstrap JavaScript Bundle -->
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>

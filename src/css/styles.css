@@ -1,0 +1,25 @@
+
+body {
+    background-color: #000;
+}
+
+#menu:hover {
+    background-color: darkmagenta;
+}
+
+#card {
+    transition: background-color 0.4s ease; /* Transición suave del color de fondo */
+}
+
+#card:hover {
+    filter: brightness(1.1);
+    background-color: rgba(255, 255, 255, 0.06); /* Color de fondo más claro */
+}
+
+#btn-convert {
+    background-color: #1ED760;
+}
+
+#btn-convert:hover {
+    background-color: darkmagenta;
+}

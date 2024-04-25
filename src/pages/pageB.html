@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="/node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg sticky-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-4 fw-medium" href="./page1.html" style="color: #1ED760;">
+                    Menú
+                    <i class="bi bi-rocket-takeoff-fill"></i>
+                </a>
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-md-5">
+                        <a class="nav-link active" aria-current="page" href="/src/pages/pageA.html">
+                            <div class="d-flex flex-column justify-content-center align-items-center px-3" id="menu">
+                                <i class="bi bi-spotify text-white"></i>
+                                <p class="text-white">Música</p>
+                            </div>
+                        </a>
+                        <a class="nav-link" href="/src/pages/pageB.html">
+                            <div class="d-flex flex-column justify-content-center align-items-center px-3" id="menu">
+                                <i class="bi bi-cash-coin text-white"></i>
+                                <p class="text-white">Divisas</p>
+                            </div>
+                        </a>
+                        <a class="nav-link" href="/src/pages/pageC.html">
+                            <div class="d-flex flex-column justify-content-center align-items-center px-3" id="menu">
+                                <i class="bi bi-postcard-fill text-white"></i>
+                                <p class="text-white">Horóscopo</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container my-5">
+            <div class="row mt-4 ">
+                <div class="col d-none d-md-block col-8">
+                    <div class="overflow-x-auto">
+                        <table class="table table-dark border border-2 border-secondary">
+                            <thead>
+                                <th colspan="9" class="my-4 fs-4 text-center py-3"
+                                    style="background-color: darkmagenta;">
+                                    Conversor de Divisas</th>
+                            </thead>
+                            <thead class="pb-0 mb-0">
+                                <tr class="text-center">
+                                    <th scope="col"></th>
+                                    <th scope="col">
+                                        <img src="../assets/usd.svg" alt="" style="width: 1.5rem;">
+                                        <p>USD</p>
+                                    </th>
+                                    <th scope="col">
+                                        <img src="../assets/euro.png" alt="" style="width: 1.5rem;">
+                                        <p>EUR</p>
+                                    </th>
+                                    <th scope="col">
+                                        <img src="../assets/gbr.avif" alt="" style="width: 1.5rem;">
+                                        <p>GBP</p>
+                                    </th>
+                                    <th scope="col">
+                                        <img src="../assets/jap.png" alt="" style="width: 1.5rem;">
+                                        <p>JPY</p>
+                                    </th>
+                                    <th scope="col">
+                                        <img src="../assets/china.png" alt="" style="width: 1.5rem;">
+                                        <p>CNY</p>
+                                    </th>
+                                    <th scope="col">
+                                        <img src="../assets/aus.jpg" alt="" style="width: 1.5rem;">
+                                        <p>AUD</p>
+                                    </th>
+                                    <th scope="col">
+                                        <img src="../assets/btc.png" alt="" style="width: 1.5rem;">
+                                        <p>BTC</p>
+                                    </th>
+                                    <th scope="col">
+                                        <img src="../assets/arg.png" alt="" style="width: 1.5rem;">
+                                        <p>ARS</p>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center" style="font-size: small;">
+                                <tr>
+                                    <th scope="row">
+                                        <div class="d-sm-inline-flex align-items-center">
+                                            <img class="me-2" src="../assets/usd.svg" alt="" style="width: 1.5rem;">
+                                            1 USD
+                                            <br>
+                                            Inverse
+                                        </div>
+                                    </th>
+                                    <td>1.000000<br>1.000000</td>
+                                    <td style="color: #1ED760;">1.919901<br>1.087074</td>
+                                    <td style="color: #1ED760;">0.811469<br>1.232332</td>
+                                    <td style="color: #1ED760;">1.919901<br>1.087074</td>
+                                    <td style="color: #1ED760;">1.459608<br>1.029123</td>
+                                    <td style="color: #1ED760;">1.094985<br>1.007074</td>
+                                    <td style="color: #1ED760;">1.038970<br>0.004601</td>
+                                    <td style="color: #1ED760;">1.919901<br>0.000014</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <div class="d-sm-inline-flex align-items-center">
+                                            <img class="me-2" src="../assets/euro.png" alt="" style="width: 1.5rem;">
+                                            1 EUR
+                                            <br>
+                                            Inverse
+                                        </div>
+                                    </th>
+                                    <td style="color: #1ED760;">1.087074<br>1.919901</td>
+                                    <td>1.000000<br>1.000000</td>
+                                    <td style="color: #1ED760;">0.000456<br>1.002456</td>
+                                    <td style="color: #1ED760;">1.007194<br>0.753400</td>
+                                    <td style="color: #1ED760;">1.240793<br>0.000806</td>
+                                    <td style="color: #1ED760;">1.900751<br>0.086010</td>
+                                    <td style="color: #1ED760;">1.060790<br>1.037105</td>
+                                    <td style="color: #1ED760;">1.197459<br>0.000751</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <div class="d-sm-inline-flex align-items-center">
+                                            <img class="me-2" src="../assets/gbr.avif" alt="" style="width: 1.5rem;">
+                                            1 GBP
+                                            <br>
+                                            Inverse
+                                        </div>
+                                    </th>
+                                    <td style="color: #1ED760;">1.232332<br>0.811469</td>
+                                    <td style="color: #1ED760;">0.882187<br>1.133623</td>
+                                    <td>1.000000<br>1.000000</td>
+                                    <td>1.000000<br>1.000000</td>
+                                    <td style="color: #1ED760;">1.919901<br>1.087074</td>
+                                    <td style="color: #1ED760;">0.811469<br>1.232332</td>
+                                    <td style="color: #1ED760;">1.919901<br>1.087074</td>
+                                    <td style="color: #1ED760;">1.459608<br>1.029123</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <div class="d-sm-inline-flex align-items-center">
+                                            <img class="me-2" src="../assets/aus.jpg" alt="" style="width: 1.5rem;">
+                                            1 AUD
+                                            <br>
+                                            Inverse
+                                        </div>
+                                    </th>
+                                    <td style="color: #1ED760;">1.087074<br>1.919901</td>
+                                    <td>1.000000<br>1.000000</td>
+                                    <td style="color: #1ED760;">0.000456<br>1.002456</td>
+                                    <td style="color: #1ED760;">1.007194<br>0.753400</td>
+                                    <td style="color: #1ED760;">1.240793<br>0.000806</td>
+                                    <td style="color: #1ED760;">1.900751<br>0.086010</td>
+                                    <td style="color: #1ED760;">1.060790<br>1.037105</td>
+                                    <td style="color: #1ED760;">1.197459<br>0.000751</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <div class="d-sm-inline-flex align-items-center">
+                                            <img class="me-2" src="../assets/arg.png" alt="" style="width: 1.5rem;">
+                                            1 ARS
+                                            <br>
+                                            Inverse
+                                        </div>
+                                    </th>
+                                    <td>1.000000<br>1.000000</td>
+                                    <td style="color: #1ED760;">1.919901<br>1.087074</td>
+                                    <td style="color: #1ED760;">0.811469<br>1.232332</td>
+                                    <td style="color: #1ED760;">1.919901<br>1.087074</td>
+                                    <td style="color: #1ED760;">1.459608<br>1.029123</td>
+                                    <td style="color: #1ED760;">1.094985<br>1.007074</td>
+                                    <td style="color: #1ED760;">1.038970<br>0.004601</td>
+                                    <td style="color: #1ED760;">1.919901<br>0.000014</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 m-0 p-0">
+                    <div class="bg-primary">
+                        <h4 class="text-center py-3 text-white" style="background-color: midnightblue;">Conversor de
+                            Divisas</h4>
+                        <form class="d-flex flex-column mb-0 pt-4 pb-3 px-2" action="">
+                            <label class="mb-2 fw-semibold" for="cant">Cantidad</label>
+                            <input class="py-1 form-control" type="text" name="cant" placeholder="Cantidad">
+                            <label class="my-2 fw-semibold" for="cant">Convertir De:</label>
+                            <select class="py-1 form-select" name="" id="">
+                                <option value="">USD Dólares EEUU</option>
+                                <option value="">AR$ Pesos Argentinos</option>
+                                <option value="">Euro</option>
+                                <option value="">Libras Esterlinas</option>
+                            </select>
+                            <label class="my-2 fw-semibold" for="cant">Convertir A:</label>
+                            <select class="py-1 form-select" name="" id="">
+                                <option value="">USD Dólares EEUU</option>
+                                <option value="">AR$ Pesos Argentinos</option>
+                                <option value="">Euro</option>
+                                <option value="">Libras Esterlinas</option>
+                            </select>
+                            <input class="my-3 py-1 form-control" type="text">
+                            <input class="mt-1 py-2 border-0 fw-medium" type="button" value="Convertir"
+                                id="btn-convert">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid bg-dark py-3" style="height: 9rem;">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <div>
+                <i class="bi bi-rocket-takeoff-fill text-white"></i>
+            </div>
+            <span class="text-white mx-1">Cristian Torrejón</span>
+            <div class="flex text-white mx-2">
+                <i class="bi bi-facebook" style="font-size: 1.6rem;"></i>
+                <i class="bi bi-instagram" style="font-size: 1.6rem;"></i>
+                <i class="bi bi-twitter-x" style="font-size: 1.6rem;"></i>
+                <i class="bi bi-linkedin" style="font-size: 1.6rem;"></i>
+                <i class="bi bi-github" style="font-size: 1.6rem;"></i>
+            </div>
+            <span class="text-white mt-1">2024 Todos los derechos reservados</span>
+        </div>
+    </footer>
+
+
+    <!-- jQuery -->
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- Popper.js -->
+    <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <!-- Bootstrap JavaScript Bundle -->
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
